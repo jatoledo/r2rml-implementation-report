@@ -1,0 +1,6 @@
+_:BBobX5FSmithX5F30 <http://example.com/amount> "30" .
+_:BBobX5FSmithX5F30 <http://xmlns.com/foaf/0.1/name> "Bob Smith" .
+_:BSueX5FJonesX5F20 <http://example.com/amount> "20" .
+_:BSueX5FJonesX5F20 <http://xmlns.com/foaf/0.1/name> "Sue Jones" .
+_:BBobX5FSmithX5F30 <http://example.com/amount> "30" .
+_:BBobX5FSmithX5F30 <http://xmlns.com/foaf/0.1/name> "Bob Smith" .
