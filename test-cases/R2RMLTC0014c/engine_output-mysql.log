@@ -1,0 +1,52 @@
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+09:47 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
+MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
+Select ('Department' || `deptno`) AS deptId
+            , `deptno`
+            , `dname`
+            , `loc`
+         from `DEPT`;
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_13706`.`empno` AS "V_13706_empno",`V_6684`.`deptId` AS "V_6684_deptId",`V_13706`.`ename` AS "V_13706_ename",`V_13706`.`etype` AS "V_13706_etype",`V_13706`.`job` AS "V_13706_job",`V_13706`.`deptno` AS "V_13706_deptno"
+FROM `EMP` V_13706
+ LEFT JOIN (Select ('Department' || `deptno`) AS deptId
+            , `deptno`
+            , `dname`
+            , `loc`
+         from `DEPT` ) V_6684 ON (V_13706.`deptno` = V_6684.`deptno`)
+
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 0 instances retrieved.
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
+Select ('Department' || `deptno`) AS deptId
+            , `deptno`
+            , `dname`
+            , `loc`
+         from `DEPT`;
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_30830`.`deptId` AS "V_30830_deptId",`V_30830`.`loc` AS "V_30830_loc",`V_30830`.`dname` AS "V_30830_dname",`V_30830`.`deptno` AS "V_30830_deptno"
+FROM (Select ('Department' || `deptno`) AS deptId
+            , `deptno`
+            , `dname`
+            , `loc`
+         from `DEPT` ) V_30830
+
+09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 1 instances retrieved.
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:219) - Running time = 73 ms.
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:220) - errorCode = 0
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:221) - status = success
+09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:222) - **********************DONE****************************

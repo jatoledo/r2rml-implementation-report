@@ -1,0 +1,4 @@
+_:B1 <http://example.com/dept#COMPANY> <EXAMPLE%20Corporation> .
+_:B1 <http://example.com/dept#location> "NEW YORK" .
+_:B1 <http://example.com/dept#name> "APPSERVER" .
+_:B1 <http://example.com/dept#deptno> "10" .

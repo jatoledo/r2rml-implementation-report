@@ -1,15 +1,16 @@
 _:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#Software>.
 _:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestSubject>.
+_:0 <http://purl.org/dc/terms/hasPart> <https://www.mysql.com/>.
 _:0 <http://purl.org/dc/terms/date> "2021-01-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 _:0 <http://usefulinc.com/ns/doap#name> "Morph-RDB".
 _:0 <http://usefulinc.com/ns/doap#created> "2013-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
 _:0 <http://usefulinc.com/ns/doap#homepage> <https://morph.oeg.fi.upm.es/tool/morph-rdb>.
 _:0 <http://usefulinc.com/ns/doap#release> "3.12.5".
+_:1 <http://xmlns.com/foaf/0.1/homepage> <https://jatoledo.oeg-upm.net/>.
 _:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>.
 _:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#Assertor>.
 _:1 <http://xmlns.com/foaf/0.1/name> "Jhon Toledo".
 _:1 <http://xmlns.com/foaf/0.1/mbox> "ja.toledo@upm.es".
-_:1 <http://xmlns.com/foaf/0.1/homepage> <https://jatoledo.oeg-upm.net/>.
 _:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#Assertion>.
 _:2 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:2 <http://www.w3.org/ns/earl#test> <http://www.w3.org/2001/sw/rdb2rdf/test-cases/#R2RMLTC0006a>.

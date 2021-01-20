@@ -1,0 +1,27 @@
+10:18 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+10:18 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+10:18 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
+MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+10:18 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+10:19 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:210) - Opening database connection ...
+10:19 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+10:19 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+10:19 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+10:19 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
+10:19 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+10:19 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+10:19 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_26604`.`empno` AS "V_26604_empno",`V_26604`.`deptno` AS "V_26604_deptno",`deptId` AS "null_deptId",`V_26604`.`etype` AS "V_26604_etype",`V_26604`.`job` AS "V_26604_job",`V_26604`.`ename` AS "V_26604_ename"
+FROM `EMP` V_26604
+ LEFT JOIN  ( SELECT ('Department' || deptno)  AS "deptId",deptno ,dname ,loc 
+FROM DEPT
+ ) `` ON (V_26604.deptno = .deptno)
+
+10:19 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:79) - Error while executing SQL Query: SELECT `V_26604`.`empno` AS "V_26604_empno",`V_26604`.`deptno` AS "V_26604_deptno",`deptId` AS "null_deptId",`V_26604`.`etype` AS "V_26604_etype",`V_26604`.`job` AS "V_26604_job",`V_26604`.`ename` AS "V_26604_ename"
+FROM `EMP` V_26604
+ LEFT JOIN  ( SELECT ('Department' || deptno)  AS "deptId",deptno ,dname ,loc 
+FROM DEPT
+ ) `` ON (V_26604.deptno = .deptno)
+
+10:19 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.deptno)' at line 5
+10:19 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.deptno)' at line 5
