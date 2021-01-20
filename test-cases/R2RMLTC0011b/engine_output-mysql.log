@@ -1,47 +1,37 @@
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-09:47 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+15:08 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
 MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT `V_5825`.`Description` AS "V_5825_Description",`V_5825`.`ID` AS "V_5825_ID"
-FROM `Sport` V_5825
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_38712`.`ID` AS "V_38712_ID",`V_38712`.`Description` AS "V_38712_Description"
+FROM `Sport` V_38712
 
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 0 instances retrieved.
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map LinkMap_1_2
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT  * 
-FROM `Student_Sport` V_99726
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 3 instances retrieved.
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map LinkMap_1_2
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_42484`.`ID_Student` AS "V_42484_ID_Student",`V_42484`.`ID_Sport` AS "V_42484_ID_Sport"
+FROM `Student_Sport` V_42484
 
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 0 instances retrieved.
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-09:47 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT `V_59355`.`LastName` AS "V_59355_LastName",`V_59355`.`FirstName` AS "V_59355_FirstName"
-FROM `Student` V_59355
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 4 instances retrieved.
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+15:08 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_3548`.`ID` AS "V_3548_ID",`V_3548`.`LastName` AS "V_3548_LastName",`V_3548`.`FirstName` AS "V_3548_FirstName"
+FROM `Student` V_3548
 
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:326) - error while translating data: null value in the subject triple!
-09:47 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 0 instances retrieved.
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:219) - Running time = 58 ms.
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:220) - errorCode = 0
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:221) - status = success
-09:47 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:222) - **********************DONE****************************
+15:08 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:335) - 3 instances retrieved.
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:219) - Running time = 62 ms.
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:220) - errorCode = 0
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:221) - status = success
+15:08 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:222) - **********************DONE****************************
