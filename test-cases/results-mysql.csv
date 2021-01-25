@@ -1,64 +1,64 @@
-tester,platform,testid,result
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0000,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0001a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0001b,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002b,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002c,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002d,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002e,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002f,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002g,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002h,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002i,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0002j,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0003a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0003b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0003c,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0004a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0004b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0005a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0005b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0006a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007c,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007d,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007e,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007f,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007g,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0007h,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0008a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0008b,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0008c,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0009a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0009b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0009c,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0009d,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0010a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0010b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0010c,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0011a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0011b,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0012a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0012b,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0012c,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0012d,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0012e,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0013a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0014a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0014b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0014c,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0014d,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0015a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0015b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0016a,passed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0016b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0016c,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0016d,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0016e,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0018a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0019a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0019b,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0020a,failed
-https://jatoledo.oeg-upm.net/,https://morph.oeg.fi.upm.es/tool/morph-rdb,R2RMLTC0020b,failed
+tester,platform,rdbms,testid,result
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0000,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0001a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0001b,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002b,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002c,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002d,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002e,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002f,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002g,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002h,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002i,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0002j,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0003a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0003b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0003c,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0004a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0004b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0005a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0005b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0006a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007c,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007d,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007e,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007f,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007g,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0007h,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0008a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0008b,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0008c,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0009a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0009b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0009c,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0009d,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0010a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0010b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0010c,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0011a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0011b,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0012a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0012b,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0012c,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0012d,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0012e,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0013a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0014a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0014b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0014c,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0014d,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0015a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0015b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0016a,passed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0016b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0016c,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0016d,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0016e,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0018a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0019a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0019b,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0020a,failed
+Jhon Toledo,Morph-RDB,mysql,R2RMLTC0020b,failed
