@@ -1,21 +1,21 @@
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-12:13 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:53 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
 MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-12:13 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-12:13 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
-12:13 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-12:13 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
-12:13 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-12:13 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-12:13 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT `V_45765`.`ID` AS "V_45765_ID",`V_45765`.`Name` AS "V_45765_Name",`V_45765`.`IDs` AS "V_45765_IDs"
-FROM `Student` V_45765
+12:53 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+12:53 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+12:53 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:53 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+12:53 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+12:53 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+12:53 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_81492`.`ID` AS "V_81492_ID",`V_81492`.`Name` AS "V_81492_Name",`V_81492`.`IDs` AS "V_81492_IDs"
+FROM `Student` V_81492
 
-12:13 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT `V_45765`.`ID` AS "V_45765_ID",`V_45765`.`Name` AS "V_45765_Name",`V_45765`.`IDs` AS "V_45765_IDs"
-FROM `Student` V_45765
+12:53 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT `V_81492`.`ID` AS "V_81492_ID",`V_81492`.`Name` AS "V_81492_Name",`V_81492`.`IDs` AS "V_81492_IDs"
+FROM `Student` V_81492
 
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: Unknown column 'V_45765.IDs' in 'field list'
-12:13 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: java.sql.SQLSyntaxErrorException: Unknown column 'V_45765.IDs' in 'field list'
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: Unknown column 'V_81492.IDs' in 'field list'
+12:53 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: java.sql.SQLSyntaxErrorException: Unknown column 'V_81492.IDs' in 'field list'

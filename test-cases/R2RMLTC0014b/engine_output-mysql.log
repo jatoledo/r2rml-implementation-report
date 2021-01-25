@@ -1,15 +1,15 @@
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-12:15 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:55 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morph.properties
 MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
 SELECT ('http://example.com/emp/' || `empno`) AS empURI
             , `empno`
             , `ename`
@@ -20,16 +20,16 @@ SELECT ('http://example.com/emp/' || `empno`) AS empURI
             , `etype`
             , ('http://example.com/graph/'|| `job` || '/' || `etype`) AS graphURI
        FROM `EMP`;
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
 SELECT ('Department' || `deptno`) AS deptId
             , `deptno`
             , `dname`
             , `loc`
        FROM `DEPT`;
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT `V_73926`.`empURI` AS "V_73926_empURI",`V_73926`.`empTypeURI` AS "V_73926_empTypeURI",`V_73926`.`empno` AS "V_73926_empno",`V_73926`.`job` AS "V_73926_job",`V_73926`.`jobTypeURI` AS "V_73926_jobTypeURI",`V_75563`.`deptId` AS "V_75563_deptId",`V_73926`.`etype` AS "V_73926_etype",`V_73926`.`deptno` AS "V_73926_deptno",`V_73926`.`ename` AS "V_73926_ename"
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_52848`.`empURI` AS "V_52848_empURI",`V_52848`.`empno` AS "V_52848_empno",`V_52848`.`jobTypeURI` AS "V_52848_jobTypeURI",`V_52848`.`empTypeURI` AS "V_52848_empTypeURI",`V_52848`.`job` AS "V_52848_job",`V_52848`.`etype` AS "V_52848_etype",`V_52848`.`ename` AS "V_52848_ename",`V_93688`.`deptId` AS "V_93688_deptId",`V_52848`.`deptno` AS "V_52848_deptno"
 FROM (SELECT ('http://example.com/emp/' || `empno`) AS empURI
             , `empno`
             , `ename`
@@ -39,33 +39,33 @@ FROM (SELECT ('http://example.com/emp/' || `empno`) AS empURI
             , ('http://example.com/emp/etype/'|| `etype`) AS empTypeURI
             , `etype`
             , ('http://example.com/graph/'|| `job` || '/' || `etype`) AS graphURI
-       FROM `EMP` ) V_73926
+       FROM `EMP` ) V_52848
  LEFT JOIN (SELECT ('Department' || `deptno`) AS deptId
             , `deptno`
             , `dname`
             , `loc`
-       FROM `DEPT` ) V_75563 ON (V_73926.`deptno` = V_75563.`deptno`)
+       FROM `DEPT` ) V_93688 ON (V_52848.`deptno` = V_93688.`deptno`)
 
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:338) - 1 instances retrieved.
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:338) - 1 instances retrieved.
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap1
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBUtility$.toZQuery(MorphRDBUtility.scala:173) - error parsing query string : 
 SELECT ('Department' || `deptno`) AS deptId
             , `deptno`
             , `dname`
             , `loc`
        FROM `DEPT`;
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-12:15 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT `V_98640`.`deptId` AS "V_98640_deptId",`V_98640`.`loc` AS "V_98640_loc",`V_98640`.`dname` AS "V_98640_dname",`V_98640`.`deptno` AS "V_98640_deptno"
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+12:55 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT `V_24400`.`deptId` AS "V_24400_deptId",`V_24400`.`loc` AS "V_24400_loc",`V_24400`.`dname` AS "V_24400_dname",`V_24400`.`deptno` AS "V_24400_deptno"
 FROM (SELECT ('Department' || `deptno`) AS deptId
             , `deptno`
             , `dname`
             , `loc`
-       FROM `DEPT` ) V_98640
+       FROM `DEPT` ) V_24400
 
-12:15 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:338) - 1 instances retrieved.
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:219) - Running time = 70 ms.
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:220) - errorCode = 0
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:221) - status = success
-12:15 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:222) - **********************DONE****************************
+12:55 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:338) - 1 instances retrieved.
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:219) - Running time = 90 ms.
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:220) - errorCode = 0
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:221) - status = success
+12:55 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.run(MorphBaseRunner.scala:222) - **********************DONE****************************
