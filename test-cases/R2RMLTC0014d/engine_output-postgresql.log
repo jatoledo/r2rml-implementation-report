@@ -1,32 +1,32 @@
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-17:48 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morphpg.properties
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:21 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morphpg.properties
 MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap4
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT V_40209."empno" AS "V_40209_empno",V_40209."ROLE" AS "V_40209_ROLE"
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap4
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT V_341."empno" AS "V_341_empno",V_341."ROLE" AS "V_341_ROLE"
 FROM (SELECT "EMP".*, (CASE "job"
             WHEN 'CLERK' THEN 'general-office'
             WHEN 'NIGHTGUARD' THEN 'security'
             WHEN 'ENGINEER' THEN 'engineering'
-        END) AS ROLE FROM "EMP" ) V_40209
+        END) AS ROLE FROM "EMP" ) V_341
 
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT V_40209."empno" AS "V_40209_empno",V_40209."ROLE" AS "V_40209_ROLE"
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT V_341."empno" AS "V_341_empno",V_341."ROLE" AS "V_341_ROLE"
 FROM (SELECT "EMP".*, (CASE "job"
             WHEN 'CLERK' THEN 'general-office'
             WHEN 'NIGHTGUARD' THEN 'security'
             WHEN 'ENGINEER' THEN 'engineering'
-        END) AS ROLE FROM "EMP" ) V_40209
+        END) AS ROLE FROM "EMP" ) V_341
 
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: ERROR: column v_40209.ROLE does not exist
-  Position: 43
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: org.postgresql.util.PSQLException: ERROR: column v_40209.ROLE does not exist
-  Position: 43
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: ERROR: column v_341.ROLE does not exist
+  Position: 39
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: org.postgresql.util.PSQLException: ERROR: column v_341.ROLE does not exist
+  Position: 39

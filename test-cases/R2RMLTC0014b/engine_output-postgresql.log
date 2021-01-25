@@ -1,34 +1,34 @@
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-17:48 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morphpg.properties
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:141) - 
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:142) - /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:21 [main] es.upm.fi.dia.oeg.morph.base.MorphProperties.readConfigurationFile(MorphProperties.scala:110) - reading configuration file : /home/jtoledo/github/r2rml-implementation-report/test-cases/morphpg.properties
 MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
-SELECT V_20491."empURI" AS "V_20491_empURI",V_20491."jobTypeURI" AS "V_20491_jobTypeURI",V_20491."empTypeURI" AS "V_20491_empTypeURI",V_20491."empno" AS "V_20491_empno",V_20491."etype" AS "V_20491_etype",V_20491."ename" AS "V_20491_ename",V_20491."job" AS "V_20491_job","deptId" AS "null_deptId",V_20491."deptno" AS "V_20491_deptno"
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.<init>(MorphBaseRunnerFactory.scala:31) - MorphBaseRunnerFactory running morph-rdb 3.12.5 ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.getLocalConnection(DBUtility.scala:211) - Opening database connection ...
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.readFromURL(R2RMLMappingDocument.scala:258) - Parsing mapping document /home/jtoledo/github/r2rml-implementation-report/test-cases/r2rml.ttl
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.model.R2RMLMappingDocument$.apply(R2RMLMappingDocument.scala:314) - Error occured while building metadata.
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunnerFactory.createRunner(MorphBaseRunnerFactory.scala:122) - Setting output to /home/jtoledo/github/r2rml-implementation-report/test-cases/output.nt
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner.materializeMappingDocuments(MorphBaseRunner.scala:101) - Materializing mapping document ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.engine.MorphBaseRunner$$anonfun$materializeMappingDocuments$1.apply(MorphBaseRunner.scala:110) - Materializing triples map TriplesMap2
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBDataTranslator.generateRDFTriples(MorphRDBDataTranslator.scala:142) - Translating RDB data into RDF instances...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:53) - Executing query ...
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:54) - Executing query:
+SELECT V_62568."empURI" AS "V_62568_empURI",V_62568."job" AS "V_62568_job",V_62568."deptno" AS "V_62568_deptno","deptId" AS "null_deptId",V_62568."empTypeURI" AS "V_62568_empTypeURI",V_62568."ename" AS "V_62568_ename",V_62568."jobTypeURI" AS "V_62568_jobTypeURI",V_62568."etype" AS "V_62568_etype",V_62568."empno" AS "V_62568_empno"
 FROM (SELECT ('http://example.com/emp/' || "empno")  AS "empURI","empno" ,"ename" ,('http://example.com/emp/job/' || "job")  AS "jobTypeURI","job" ,"deptno" ,('http://example.com/emp/etype/' || "etype")  AS "empTypeURI","etype" ,((('http://example.com/graph/' || "job") || '/') || "etype")  AS "graphURI"
 FROM "EMP"
- ) V_20491
+ ) V_62568
  LEFT JOIN  ( SELECT ('Department' || "deptno")  AS "deptId","deptno" ,"dname" ,"loc" 
 FROM "DEPT"
- ) "" ON (V_20491."deptno" = ."deptno")
+ ) "" ON (V_62568."deptno" = ."deptno")
 
-17:48 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT V_20491."empURI" AS "V_20491_empURI",V_20491."jobTypeURI" AS "V_20491_jobTypeURI",V_20491."empTypeURI" AS "V_20491_empTypeURI",V_20491."empno" AS "V_20491_empno",V_20491."etype" AS "V_20491_etype",V_20491."ename" AS "V_20491_ename",V_20491."job" AS "V_20491_job","deptId" AS "null_deptId",V_20491."deptno" AS "V_20491_deptno"
+12:21 [main] es.upm.fi.dia.oeg.morph.base.DBUtility$.execute(DBUtility.scala:80) - Error while executing SQL Query: SELECT V_62568."empURI" AS "V_62568_empURI",V_62568."job" AS "V_62568_job",V_62568."deptno" AS "V_62568_deptno","deptId" AS "null_deptId",V_62568."empTypeURI" AS "V_62568_empTypeURI",V_62568."ename" AS "V_62568_ename",V_62568."jobTypeURI" AS "V_62568_jobTypeURI",V_62568."etype" AS "V_62568_etype",V_62568."empno" AS "V_62568_empno"
 FROM (SELECT ('http://example.com/emp/' || "empno")  AS "empURI","empno" ,"ename" ,('http://example.com/emp/job/' || "job")  AS "jobTypeURI","job" ,"deptno" ,('http://example.com/emp/etype/' || "etype")  AS "empTypeURI","etype" ,((('http://example.com/graph/' || "job") || '/') || "etype")  AS "graphURI"
 FROM "EMP"
- ) V_20491
+ ) V_62568
  LEFT JOIN  ( SELECT ('Department' || "deptno")  AS "deptId","deptno" ,"dname" ,"loc" 
 FROM "DEPT"
- ) "" ON (V_20491."deptno" = ."deptno")
+ ) "" ON (V_62568."deptno" = ."deptno")
 
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: ERROR: zero-length delimited identifier at or near """"
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:164) - Exception occured: ERROR: zero-length delimited identifier at or near """"
   Position: 763
-17:48 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+12:21 [main] es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner$.main(MorphRDBRunner.scala:165) - Exception occured: org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
   Position: 763
