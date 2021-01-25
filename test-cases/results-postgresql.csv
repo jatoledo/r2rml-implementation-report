@@ -16,7 +16,7 @@ Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0003a,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0003b,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0003c,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0004a,passed
-Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0004b,failed
+Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0004b,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0005a,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0005b,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0006a,failed
@@ -27,7 +27,7 @@ Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007d,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007e,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007f,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007g,passed
-Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007h,failed
+Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0007h,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0008a,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0008b,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0008c,failed
@@ -42,8 +42,8 @@ Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0011a,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0011b,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012a,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012b,passed
-Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012c,failed
-Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012d,failed
+Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012c,passed
+Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012d,passed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0012e,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0013a,failed
 Jhon Toledo,Morph-RDB,postgresql,R2RMLTC0014a,passed
