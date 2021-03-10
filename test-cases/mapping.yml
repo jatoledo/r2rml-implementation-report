@@ -8,7 +8,7 @@ prefixes:
 mappings:
   engine:
     sources:
-        - ['metadata.csv~csv']
+      - ['metadata.csv~csv']
     s: http://kg-construct.github.io/r2rml-implementation-report/TestSubject/$(engine_name)-$(database_name)
     po:
       - [a, [earl:Software,earl:TestSubject]]
@@ -21,7 +21,7 @@ mappings:
 
   tester:
     sources:
-        - ['metadata.csv~csv']
+      - ['metadata.csv~csv']
     s: http://kg-construct.github.io/r2rml-implementation-report/Assertor/$(tester_name)
     po:
       - [a, [foaf:Person,earl:Assertor]]
@@ -31,8 +31,8 @@ mappings:
 
   metadata:
     sources:
-        - ['results.csv~csv']
-    s: http://kg-construct.github.io/r2rml-implementation-report/Assertion/$(tester)-$(platform)-$(rdbms)
+      - ['results.csv~csv']
+    s: http://kg-construct.github.io/r2rml-implementation-report/Assertion/$(tester)-$(platform)-$(rdbms)-$(testid)
     po:
       - [a, earl:Assertion]
       - [earl:mode, earl:automatic~iri]
@@ -63,8 +63,8 @@ mappings:
                 - [str2, $(testid)]
   results:
     sources:
-        - ['results.csv~csv']
-    s: http://kg-construct.github.io/r2rml-implementation-report/TestResult/$(tester)-$(platform)-$(rdbms)-$(testid)
+      - ['results.csv~csv']
+    s: http://kg-construct.github.io/r2rml-implementation-report/TestResult/$(tester)-$(platform)-$(rdbms)-$(testid)-$(result)
     po:
       - [a, earl:TestResult]
       - [earl:outcome, http://www.w3.org/ns/earl#$(result)~iri]
