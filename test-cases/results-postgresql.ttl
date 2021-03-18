@@ -2,7 +2,7 @@
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestSubject>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://purl.org/dc/terms/hasPart> <https://www.postgresql.org/>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://purl.org/dc/terms/date> "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://usefulinc.com/ns/doap#name> "Morph-RDB".
+<http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://usefulinc.com/ns/doap#name> "Morph-RDB-postgresql".
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://usefulinc.com/ns/doap#created> "2013-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://usefulinc.com/ns/doap#homepage> <https://morph.oeg.fi.upm.es/tool/morph-rdb>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/Morph-RDB-postgresql> <http://usefulinc.com/ns/doap#release> "3.12.5".
